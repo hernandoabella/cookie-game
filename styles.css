@@ -1,0 +1,94 @@
+/* Created by Priyangshu */
+
+
+body {
+    background: skyBlue;
+}
+
+#music {
+    display: none;
+}
+
+#cookies, #cash {
+    font-size: 7vmin;
+    text-align: right;
+    margin-right: 2vmin;
+}
+
+#cps {
+    font-size: 7vmin;
+    text-align: left;
+    margin-top: -17vmin;
+    margin-left: 2vmin;
+}
+
+#cookie {
+    position: absolute;
+    height: 25vh;
+    width: 43vw;
+    margin-top: 20vmin;
+    margin-left: 52vmin;
+}
+
+button {
+    height: 8vh;
+    width: 43vw;
+    border-radius: 3.5vmin;
+    font-size: 7vmin;
+    margin-top: 3vmin;
+    margin-left: 3vmin;
+}
+
+#granny {
+    margin-top: 17vmin;
+}
+
+#grannyN {
+    margin-top: 2vmin;
+    margin-left: 8vmin;
+    font-size: 5.5vmin;
+}
+
+#workerN {
+    margin-top: 2vmin;
+    margin-left: 8vmin;
+    font-size: 5.5vmin;
+}
+
+#chefN {
+    margin-top: 2vmin;
+    margin-left: 10vmin;
+    font-size: 5.5vmin;
+}
+
+#robotN {
+    margin-top: 2vmin;
+    margin-left: 10vmin;
+    font-size: 5.5vmin;
+}
+
+.btn {
+    font-size: 6vmin;
+    border-radius: 2vmin;
+    height: 10vh;
+    background: #31DE84;
+    margin-top: -2vmin;
+}
+
+#research {
+    position: absolute;
+    font-size: 4.5vmin;
+    height: 7vh;
+    width: 35vw;
+    border-radius: 1.5vmin;
+    margin-top: -27vmin;
+    margin-left: 55vmin;
+}
+
+#result {
+    position: absolute;
+    font-size: 8vmin;
+    color: red;
+    display: none;
+    margin-top: 20vmin;
+}
