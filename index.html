@@ -1,0 +1,40 @@
+<!-- Created by Priyangshu -->
+
+<!--- 
+  Created by Priyangshu
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Cookie Game</title>
+    </head>
+    <body>
+       <audio id="music" controls autoplay loop>
+        <source src="https://www.dropbox.com/s/l7wj5kr3nf5jnxp/mr.%20bean%20animated%20cartoon%20intro%20opening%20theme%20hd.mp3?raw=1" type="audio/mpeg">
+    </audio>
+      <div id="cookies"></div>  
+      <div id="cash"></div>
+      <div id="cps"></div>
+      <img id="cookie" onclick="cookieClick(1)" src="https://www.dropbox.com/s/5bv85a203q290t6/img_20210616_023254.png?raw=1"></img>
+      
+      <button id="granny" onclick="buyGranny()">Hire 👵</button>
+      <div id="grannyN"></div>
+            
+      <button id="worker" onclick="buyWorker()">Hire 👦</button>
+      <div id="workerN"></div>
+      
+      <button id="chef" onclick="buyChef()">Hire 👨‍🍳</button>
+      <div id="chefN"></div>
+      
+      <button id="robot" onclick="buyRobot()">Buy 🤖</button>
+      <div id="robotN"></div>
+      
+      <br>
+      <button id="research" onclick="r()">Research 🔬</button>
+      <br>
+      <button id="a" class="btn" onclick="sell200()">Sell 200 🍪</button>
+      <button id="b" class="btn" onclick="sell5000()">Sell 5000 🍪</button>
+      <p id="result"></p>
+    </body>
+</html>
